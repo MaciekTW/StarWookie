@@ -1,0 +1,38 @@
+;name;classification;designation;average_height;skin_colors;hair_colors;eye_colors;average_lifespan;language;homeworld;component;src
+0;Hutt;gastropod;sentient;300.0;green, brown, tan;;yellow, red;1000;Huttese;Nal Hutta;species;Hutt.jpg
+1;Yoda's species;mammal;sentient;66.0;green, yellow;brown, white;brown, green, yellow;900;Galactic basic;;species;Yoda's_species.jpg
+2;Trandoshan;reptile;sentient;200.0;brown, green;none;yellow, orange;;Dosh;Trandosha;species;Trandoshan.jpg
+3;Mon Calamari;amphibian;sentient;160.0;red, blue, brown, magenta;none;yellow;;Mon Calamarian;Mon Cala;species;Mon_Calamari.jpg
+4;Ewok;mammal;sentient;100.0;brown;white, brown, black;orange, brown;;Ewokese;Endor;species;Ewok.jpg
+5;Sullustan;mammal;sentient;180.0;pale;none;black;;Sullutese;Sullust;species;Sullustan.jpg
+6;Neimodian;;sentient;180.0;grey, green;none;red, pink;;Neimoidia;Cato Neimoidia;species;Neimodian.jpg
+7;Gungan;amphibian;sentient;190.0;brown, green;none;orange;;Gungan basic;Naboo;species;Gungan.jpg
+8;Toydarian;mammal;sentient;120.0;blue, green, grey;none;yellow;91;Toydarian;Toydaria;species;Toydarian.jpg
+9;Dug;mammal;sentient;100.0;brown, purple, grey, red;none;yellow, blue;;Dugese;Malastare;species;Dug.jpg
+10;Twi'lek;mammals;sentient;200.0;orange, yellow, blue, green, pink, purple, tan;none;blue, brown, orange, pink;;Twi'leki;Ryloth;species;Twi'lek.jpg
+11;Aleena;reptile;sentient;80.0;blue, gray;none;;79;Aleena;Aleen Minor;species;Aleena.jpg
+12;Vulptereen;;sentient;100.0;grey;none;yellow;;vulpterish;Vulpter;species;Vulptereen.jpg
+13;Xexto;;sentient;125.0;grey, yellow, purple;none;black;;Xextese;Troiken;species;Xexto.jpg
+14;Toong;;sentient;200.0;grey, green, yellow;none;orange;;Tundan;Tund;species;Toong.jpg
+15;Cerean;mammal;sentient;200.0;pale pink;red, blond, black, white;hazel;;Cerean;Cerea;species;Cerean.jpg
+16;Nautolan;amphibian;sentient;180.0;green, blue, brown, red;none;black;70;Nautila;Glee Anselm;species;Nautolan.jpg
+17;Zabrak;mammal;sentient;180.0;pale, brown, red, orange, yellow;black;brown, orange;;Zabraki;Iridonia;species;Zabrak.jpg
+18;Tholothian;mammal;sentient;;dark;;blue, indigo;;;Tholoth;species;Tholothian.jpg
+19;Iktotchi;;sentient;180.0;pink;none;orange;;Iktotchese;Iktotch;species;Iktotchi.jpg
+20;Quermian;mammal;sentient;240.0;white;none;yellow;86;Quermian;Quermia;species;Quermian.jpg
+21;Kel Dor;;sentient;180.0;peach, orange, red;none;black, silver;70;Kel Dor;Dorin;species;Kel_Dor.jpg
+22;Chagrian;amphibian;sentient;190.0;blue;none;blue;;Chagria;Champala;species;Chagrian.jpg
+23;Geonosian;insectoid;sentient;178.0;green, brown;none;green, hazel;;Geonosian;Geonosis;species;Geonosian.jpg
+24;Mirialan;mammal;sentient;180.0;yellow, green;black, brown;blue, green, red, yellow, brown, orange;;Mirialan;Mirial;species;Mirialan.jpg
+25;Clawdite;reptilian;sentient;180.0;green, yellow;none;yellow;70;Clawdite;Zolan;species;Clawdite.jpg
+26;Besalisk;amphibian;sentient;178.0;brown;none;yellow;75;besalisk;Ojom;species;Besalisk.jpg
+27;Kaminoan;amphibian;sentient;220.0;grey, blue;none;black;80;Kaminoan;Kamino;species;Kaminoan.jpg
+28;Skakoan;mammal;sentient;;grey, green;none;;;Skakoan;Skako;species;Skakoan.jpg
+29;Muun;mammal;sentient;190.0;grey, white;none;black;100;Muun;Muunilinst;species;Muun.jpg
+30;Togruta;mammal;sentient;180.0;red, white, orange, yellow, green, blue;none;red, orange, yellow, green, blue, black;94;Togruti;Shili;species;Togruta.jpg
+31;Kaleesh;reptile;sentient;170.0;brown, orange, tan;none;yellow;80;Kaleesh;Kalee;species;Kaleesh.jpg
+32;Pau'an;mammal;sentient;190.0;grey;none;black;700;Utapese;Utapau;species;Pau'an.jpg
+33;Wookiee;mammal;sentient;210.0;gray;black, brown;blue, green, yellow, brown, golden, red;400;Shyriiwook;Kashyyyk;species;Wookiee.jpg
+34;Droid;artificial;sentient;;;;;indefinite;;;species;Droid.jpg
+35;Human;mammal;sentient;180.0;caucasian, black, asian, hispanic;blonde, brown, black, red;brown, blue, green, hazel, grey, amber;120;Galactic Basic;Coruscant;species;Human.jpg
+36;Rodian;sentient;reptilian;170.0;green, blue;;black;;Galactic Basic;Rodia;species;Rodian.jpg

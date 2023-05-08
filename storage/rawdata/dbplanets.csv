@@ -1,0 +1,62 @@
+;name;rotation_period;orbital_period;diameter;climate;gravity;terrain;surface_water;population;component;src
+0;Alderaan;24.0;364.0;12500.0;temperate;1 standard;grasslands, mountains;40;2000000000.0;planets;Alderaan.jpg
+1;Yavin IV;24.0;4818.0;10200.0;temperate, tropical;1 standard;jungle, rainforests;8;1000.0;planets;Yavin_IV.jpg
+2;Hoth;23.0;549.0;7200.0;frozen;1.1 standard;tundra, ice caves, mountain ranges;100;;planets;Hoth.jpg
+3;Dagobah;23.0;341.0;8900.0;murky;;swamp, jungles;8;;planets;Dagobah.jpg
+4;Bespin;12.0;5110.0;118000.0;temperate;1.5 (surface), 1 standard (Cloud City);gas giant;0;6000000.0;planets;Bespin.jpg
+5;Endor;18.0;402.0;4900.0;temperate;0.85 standard;forests, mountains, lakes;8;30000000.0;planets;Endor.jpg
+6;Naboo;26.0;312.0;12120.0;temperate;1 standard;grassy hills, swamps, forests, mountains;12;4500000000.0;planets;Naboo.jpg
+7;Coruscant;24.0;368.0;12240.0;temperate;1 standard;cityscape, mountains;;1000000000000.0;planets;Coruscant.jpg
+8;Kamino;27.0;463.0;19720.0;temperate;1 standard;ocean;100;1000000000.0;planets;Kamino.jpg
+9;Geonosis;30.0;256.0;11370.0;temperate, arid;0.9 standard;rock, desert, mountain, barren;5;100000000000.0;planets;Geonosis.jpg
+10;Utapau;27.0;351.0;12900.0;temperate, arid, windy;1 standard;scrublands, savanna, canyons, sinkholes;0,9;95000000.0;planets;Utapau.jpg
+11;Mustafar;36.0;412.0;4200.0;hot;1 standard;volcanoes, lava rivers, mountains, caves;0;20000.0;planets;Mustafar.jpg
+12;Kashyyyk;26.0;381.0;12765.0;tropical;1 standard;jungle, forests, lakes, rivers;60;45000000.0;planets;Kashyyyk.jpg
+13;Polis Massa;24.0;590.0;0.0;artificial temperate ;0.56 standard;airless asteroid;0;1000000.0;planets;Polis_Massa.jpg
+14;Mygeeto;12.0;167.0;10088.0;frigid;1 standard;glaciers, mountains, ice canyons;;19000000.0;planets;Mygeeto.jpg
+15;Felucia;34.0;231.0;9100.0;hot, humid;0.75 standard;fungus forests;;8500000.0;planets;Felucia.jpg
+16;Cato Neimoidia;25.0;278.0;0.0;temperate, moist;1 standard;mountains, fields, forests, rock arches;;10000000.0;planets;Cato_Neimoidia.jpg
+17;Saleucami;26.0;392.0;14920.0;hot;;caves, desert, mountains, volcanoes;;1400000000.0;planets;Saleucami.jpg
+18;Stewjon;;;0.0;temperate;1 standard;grass;;;planets;
+19;Eriadu;24.0;360.0;13490.0;polluted;1 standard;cityscape;;22000000000.0;planets;Eriadu.jpg
+20;Corellia;25.0;329.0;11000.0;temperate;1 standard;plains, urban, hills, forests;70;3000000000.0;planets;Corellia.jpg
+21;Rodia;29.0;305.0;7549.0;hot;1 standard;jungles, oceans, urban, swamps;60;1300000000.0;planets;Rodia.jpg
+22;Nal Hutta;87.0;413.0;12150.0;temperate;1 standard;urban, oceans, swamps, bogs;;7000000000.0;planets;Nal_Hutta.jpg
+23;Dantooine;25.0;378.0;9830.0;temperate;1 standard;oceans, savannas, mountains, grasslands;;1000.0;planets;Dantooine.jpg
+24;Bestine IV;26.0;680.0;6400.0;temperate;;rocky islands, oceans;98;62000000.0;planets;Bestine_IV.jpg
+25;Ord Mantell;26.0;334.0;14050.0;temperate;1 standard;plains, seas, mesas;10;4000000000.0;planets;Ord_Mantell.jpg
+26;;0.0;0.0;0.0;;;;;;planets;
+27;Trandosha;25.0;371.0;0.0;arid;0.62 standard;mountains, seas, grasslands, deserts;;42000000.0;planets;Trandosha.jpg
+28;Socorro;20.0;326.0;0.0;arid;1 standard;deserts, mountains;;300000000.0;planets;Socorro.jpg
+29;Mon Cala;21.0;398.0;11030.0;temperate;1;oceans, reefs, islands;100;27000000000.0;planets;Mon_Cala.jpg
+30;Chandrila;20.0;368.0;13500.0;temperate;1;plains, forests;40;1200000000.0;planets;Chandrila.jpg
+31;Sullust;20.0;263.0;12780.0;superheated;1;mountains, volcanoes, rocky deserts;5;18500000000.0;planets;Sullust.jpg
+32;Toydaria;21.0;184.0;7900.0;temperate;1;swamps, lakes;;11000000.0;planets;Toydaria.jpg
+33;Malastare;26.0;201.0;18880.0;arid, temperate, tropical;1,56;swamps, deserts, jungles, mountains;;2000000000.0;planets;Malastare.jpg
+34;Dathomir;24.0;491.0;10480.0;temperate;0,9;forests, deserts, savannas;;5200.0;planets;Dathomir.jpg
+35;Ryloth;30.0;305.0;10600.0;temperate, arid, subartic;1;mountains, valleys, deserts, tundra;5;1500000000.0;planets;Ryloth.jpg
+36;Aleen Minor;;;;;;;;;planets;
+37;Vulpter;22.0;391.0;14900.0;temperate, artic;1;urban, barren;;421000000.0;planets;Vulpter.jpg
+38;Troiken;;;;;;desert, tundra, rainforests, mountains;;;planets;Troiken.jpg
+39;Tund;48.0;1770.0;12190.0;;;barren, ash;;0.0;planets;Tund.jpg
+40;Haruun Kal;25.0;383.0;10120.0;temperate;0,98;toxic cloudsea, plateaus, volcanoes;;705300.0;planets;Haruun_Kal.jpg
+41;Cerea;27.0;386.0;;temperate;1;verdant;20;450000000.0;planets;Cerea.jpg
+42;Glee Anselm;33.0;206.0;15600.0;tropical, temperate;1;lakes, islands, swamps, seas;80;500000000.0;planets;Glee_Anselm.jpg
+43;Iridonia;29.0;413.0;;;;rocky canyons, acid pools;;;planets;Iridonia.jpg
+44;Tholoth;;;;;;;;;planets;Tholoth.jpg
+45;Iktotch;22.0;481.0;;arid, rocky, windy;1;rocky;;;planets;Iktotch.jpg
+46;Quermia;;;;;;;;;planets;Quermia.jpg
+47;Dorin;22.0;409.0;13400.0;temperate;1;;;;planets;Dorin.jpg
+48;Champala;27.0;318.0;;temperate;1;oceans, rainforests, plateaus;;3500000000.0;planets;Champala.jpg
+49;Mirial;;;;;;deserts;;;planets;Mirial.jpg
+50;Serenno;;;;;;rainforests, rivers, mountains;;;planets;Serenno.jpg
+51;Concord Dawn;;;;;;jungles, forests, deserts;;;planets;Concord_Dawn.jpg
+52;Zolan;;;;;;;;;planets;Zolan.jpg
+53;Ojom;;;;frigid;;oceans, glaciers;100;500000000.0;planets;Ojom.jpg
+54;Skako;27.0;384.0;;temperate;1;urban, vines;;500000000000.0;planets;Skako.jpg
+55;Muunilinst;28.0;412.0;13800.0;temperate;1;plains, forests, hills, mountains;25;5000000000.0;planets;Muunilinst.jpg
+56;Shili;;;;temperate;1;cities, savannahs, seas, plains;;;planets;Shili.jpg
+57;Kalee;23.0;378.0;13850.0;arid, temperate, tropical;1;rainforests, cliffs, canyons, seas;;4000000000.0;planets;
+58;Umbara;;;;;;;;;planets;Umbara.jpg
+59;Tatooine;23.0;304.0;10465.0;arid;1 standard;desert;1;200000.0;planets;Tatooine.jpg
+60;Jakku;;;;;;deserts;;;planets;Jakku.jpg
