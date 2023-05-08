@@ -1,4 +1,4 @@
-## Pokedex -Baza Wiedzy
+## StarWookie -Baza Wiedzy
 
 ### 1. Pierwsze uruchomienie
 <ol>
