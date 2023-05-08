@@ -14,7 +14,7 @@ class CreateCharactersTable extends Migration
     public function up()
     {
         Schema::create('characters', function (Blueprint $table) {
-            $table->id();
+            $table->integer('index');
             $table->string('name');
             $table->unsignedInteger('height')->nullable();
             $table->unsignedInteger('mass')->nullable();
@@ -27,7 +27,6 @@ class CreateCharactersTable extends Migration
             $table->string('species')->nullable();
             $table->string('component')->nullable();
             $table->string('src')->nullable();
-            $table->timestamps();
         });
     }
 

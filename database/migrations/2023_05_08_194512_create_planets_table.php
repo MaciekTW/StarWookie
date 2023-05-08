@@ -14,7 +14,7 @@ class CreatePlanetsTable extends Migration
     public function up()
     {
         Schema::create('planets', function (Blueprint $table) {
-            $table->id();
+            $table->integer('index');
             $table->string('name');
             $table->unsignedInteger('rotation_period')->nullable();
             $table->unsignedInteger('orbital_period')->nullable();
@@ -22,11 +22,10 @@ class CreatePlanetsTable extends Migration
             $table->string('climate')->nullable();
             $table->string('gravity')->nullable();
             $table->string('terrain')->nullable();
-            $table->float('surface_water')->nullable();
+            $table->string('surface_water')->nullable();
             $table->unsignedBigInteger('population')->nullable();
             $table->string('component')->nullable();
             $table->string('src')->nullable();
-            $table->timestamps();
         });
     }
 

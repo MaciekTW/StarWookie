@@ -14,7 +14,7 @@ class CreateStarshipsTable extends Migration
     public function up()
     {
         Schema::create('starships', function (Blueprint $table) {
-            $table->id();
+            $table->integer('index');
             $table->string('name');
             $table->string('model')->nullable();
             $table->string('manufacturer')->nullable();
@@ -30,7 +30,6 @@ class CreateStarshipsTable extends Migration
             $table->string('starship_class')->nullable();
             $table->string('component')->nullable();
             $table->string('src')->nullable();
-            $table->timestamps();
         });
     }
 

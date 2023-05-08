@@ -14,7 +14,7 @@ class CreateVehiclesTable extends Migration
     public function up()
     {
         Schema::create('vehicles', function (Blueprint $table) {
-            $table->id();
+            $table->integer('index');
             $table->string('name');
             $table->string('model')->nullable();
             $table->string('manufacturer')->nullable();
@@ -28,7 +28,6 @@ class CreateVehiclesTable extends Migration
             $table->string('vehicle_class')->nullable();
             $table->string('component')->nullable();
             $table->string('src')->nullable();
-            $table->timestamps();
         });
     }
 

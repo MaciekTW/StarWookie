@@ -1,40 +1,40 @@
-;name;model;manufacturer;cost_in_credits;length;max_atmosphering_speed;crew;passengers;cargo_capacity;consumables;vehicle_class;component;src
-0;Sand Crawler;Digger Crawler;Corellia Mining Corporation;150000.0;36,8;30.0;46;30.0;50000;2 months;wheeled;vehicles;Sand_Crawler.jpg
-1;T-16 skyhopper;T-16 skyhopper;Incom Corporation;14500.0;10,4;1200.0;1;1.0;50;0;repulsorcraft;vehicles;T-16_skyhopper.jpg
-2;X-34 landspeeder;X-34 landspeeder;SoroSuub Corporation;10550.0;3,4;250.0;1;1.0;5;;repulsorcraft;vehicles;X-34_landspeeder.jpg
-3;TIE/LN starfighter;Twin Ion Engine/Ln Starfighter;Sienar Fleet Systems;;6,4;1200.0;1;0.0;65;2 days;starfighter;vehicles;TIE_LN_starfighter.jpg
-4;Snowspeeder;t-47 airspeeder;Incom corporation;;4,5;650.0;2;0.0;10;none;airspeeder;vehicles;Snowspeeder.jpg
-5;TIE bomber;TIE/sa bomber;Sienar Fleet Systems;;7,8;850.0;1;0.0;none;2 days;space/planetary bomber;vehicles;TIE_bomber.jpg
-6;AT-AT;All Terrain Armored Transport;Kuat Drive Yards, Imperial Department of Military Research;;20;60.0;5;40.0;1000;;assault walker;vehicles;AT-AT.jpg
-7;AT-ST;All Terrain Scout Transport;Kuat Drive Yards, Imperial Department of Military Research;;2;90.0;2;0.0;200;none;walker;vehicles;AT-ST.jpg
-8;Storm IV Twin-Pod cloud car;Storm IV Twin-Pod;Bespin Motors;75000.0;7;1500.0;2;0.0;10;1 day;repulsorcraft;vehicles;Storm_IV_Twin-Pod_cloud_car.jpg
-9;Sail barge;Modified Luxury Sail Barge;Ubrikkian Industries Custom Vehicle Division;285000.0;30;100.0;26;500.0;2000000;Live food tanks;sail barge;vehicles;Sail_barge.jpg
-10;Bantha-II cargo skiff;Bantha-II;Ubrikkian Industries;8000.0;9,5;250.0;5;16.0;135000;1 day;repulsorcraft cargo skiff;vehicles;Bantha-II_cargo_skiff.jpg
-11;TIE/IN interceptor;Twin Ion Engine Interceptor;Sienar Fleet Systems;;9,6;1250.0;1;0.0;75;2 days;starfighter;vehicles;TIE_IN_interceptor.jpg
-12;Imperial Speeder Bike;74-Z speeder bike;Aratech Repulsor Company;8000.0;3;360.0;1;1.0;4;1 day;speeder;vehicles;Imperial_Speeder_Bike.jpg
-13;Vulture Droid;Vulture-class droid starfighter;Haor Chall Engineering, Baktoid Armor Workshop;;3,5;1200.0;0;0.0;0;none;starfighter;vehicles;Vulture_Droid.jpg
-14;Multi-Troop Transport;Multi-Troop Transport;Baktoid Armor Workshop;138000.0;31;35.0;4;112.0;12000;;repulsorcraft;vehicles;Multi-Troop_Transport.jpg
-15;Armored Assault Tank;Armoured Assault Tank;Baktoid Armor Workshop;;9,75;55.0;4;6.0;;;repulsorcraft;vehicles;Armored_Assault_Tank.jpg
-16;Single Trooper Aerial Platform;Single Trooper Aerial Platform;Baktoid Armor Workshop;2500.0;2;400.0;1;0.0;none;none;repulsorcraft;vehicles;Single_Trooper_Aerial_Platform.jpg
-17;C-9979 landing craft;C-9979 landing craft;Haor Chall Engineering;200000.0;210;587.0;140;284.0;1800000;1 day;landing craft;vehicles;C-9979_landing_craft.jpg
-18;Tribubble bongo;Tribubble bongo;Otoh Gunga Bongameken Cooperative;;15;85.0;1;2.0;1600;;submarine;vehicles;Tribubble_bongo.jpg
-19;Sith speeder;FC-20 speeder bike;Razalon;4000.0;1,5;180.0;1;0.0;2;;speeder;vehicles;Sith_speeder.jpg
-20;Zephyr-G swoop;Zephyr-G swoop bike;Mobquet Swoops and Speeders;5750.0;3,68;350.0;1;1.0;200;none;repulsorcraft;vehicles;Zephyr-G_swoop.jpg
-21;Koro-2 Exodrive airspeeder;Koro-2 Exodrive airspeeder;Desler Gizh Outworld Mobility Corporation;;6,6;800.0;1;1.0;80;;airspeeder;vehicles;Koro-2_Exodrive_airspeeder.jpg
-22;XJ-6 airspeeder;XJ-6 airspeeder;Narglatch AirTech prefabricated kit;;6,23;720.0;1;1.0;;;airspeeder;vehicles;XJ-6_airspeeder.jpg
-23;LAAT/i;Low Altitude Assault Transport/infrantry;Rothana Heavy Engineering;;17,4;620.0;6;30.0;170;;gunship;vehicles;LAAT_i.jpg
-24;LAAT/c;Low Altitude Assault Transport/carrier;Rothana Heavy Engineering;;28,82;620.0;1;0.0;40000;;gunship;vehicles;LAAT_c.jpg
-25;Tsmeu-6 personal wheel bike;Tsmeu-6 personal wheel bike;Z-Gomot Ternbuell Guppat Corporation;15000.0;3,5;330.0;1;1.0;10;none;wheeled walker;vehicles;Tsmeu-6_personal_wheel_bike.jpg
-26;Emergency Firespeeder;Fire suppression speeder;;;;;2;;;;fire suppression ship;vehicles;Emergency_Firespeeder.jpg
-27;Droid tri-fighter;tri-fighter;Colla Designs, Phlac-Arphocc Automata Industries;20000.0;5,4;1180.0;1;0.0;0;none;droid starfighter;vehicles;Droid_tri-fighter.jpg
-28;Oevvaor jet catamaran;Oevvaor jet catamaran;Appazanna Engineering Works;12125.0;15,1;420.0;2;2.0;50;3 days;airspeeder;vehicles;Oevvaor_jet_catamaran.jpg
-29;Raddaugh Gnasp fluttercraft;Raddaugh Gnasp fluttercraft;Appazanna Engineering Works;14750.0;7;310.0;2;0.0;20;none;air speeder;vehicles;Raddaugh_Gnasp_fluttercraft.jpg
-30;Clone turbo tank;HAVw A6 Juggernaut;Kuat Drive Yards;350000.0;49,4;160.0;20;300.0;30000;20 days;wheeled walker;vehicles;Clone_turbo_tank.jpg
-31;Corporate Alliance tank droid;NR-N99 Persuader-class droid enforcer;Techno Union;49000.0;10,96;100.0;0;4.0;none;none;droid tank;vehicles;Corporate_Alliance_tank_droid.jpg
-32;Droid gunship;HMP droid gunship;Baktoid Fleet Ordnance, Haor Chall Engineering;60000.0;12,3;820.0;0;0.0;0;none;airspeeder;vehicles;Droid_gunship.jpg
-33;AT-RT;All Terrain Recon Transport;Kuat Drive Yards;40000.0;3,2;90.0;1;0.0;20;1 day;walker;vehicles;AT-RT.jpg
-34;AT-TE;All Terrain Tactical Enforcer;Rothana Heavy Engineering, Kuat Drive Yards;;13,2;60.0;6;36.0;10000;21 days;walker;vehicles;AT-TE.jpg
-35;SPHA;Self-Propelled Heavy Artillery;Rothana Heavy Engineering;;140;35.0;25;30.0;500;7 days;walker;vehicles;SPHA.jpg
-36;Flitknot speeder;Flitknot speeder;Huppla Pasa Tisc Shipwrights Collective;8000.0;2;634.0;1;0.0;;;speeder;vehicles;Flitknot_speeder.jpg
-37;Neimoidian shuttle;Sheathipede-class transport shuttle;Haor Chall Engineering;;20;880.0;2;6.0;1000;7 days;transport;vehicles;Neimoidian_shuttle.jpg
-38;Geonosian starfighter;Nantex-class territorial defense;Huppla Pasa Tisc Shipwrights Collective;;9,8;20000.0;1;0.0;;;starfighter;vehicles;Geonosian_starfighter.jpg
+index,name,model,manufacturer,cost_in_credits,length,max_atmosphering_speed,crew,passengers,cargo_capacity,consumables,vehicle_class,component,src
+0,Sand Crawler,Digger Crawler,Corellia Mining Corporation,150000.0,"36,8",30.0,46,30.0,50000,2 months,wheeled,vehicles,Sand_Crawler.jpg
+1,T-16 skyhopper,T-16 skyhopper,Incom Corporation,14500.0,"10,4",1200.0,1,1.0,50,0,repulsorcraft,vehicles,T-16_skyhopper.jpg
+2,X-34 landspeeder,X-34 landspeeder,SoroSuub Corporation,10550.0,"3,4",250.0,1,1.0,5,NaN,repulsorcraft,vehicles,X-34_landspeeder.jpg
+3,TIE/LN starfighter,Twin Ion Engine/Ln Starfighter,Sienar Fleet Systems,0.0,"6,4",1200.0,1,0.0,65,2 days,starfighter,vehicles,TIE_LN_starfighter.jpg
+4,Snowspeeder,t-47 airspeeder,Incom corporation,0.0,"4,5",650.0,2,0.0,10,none,airspeeder,vehicles,Snowspeeder.jpg
+5,TIE bomber,TIE/sa bomber,Sienar Fleet Systems,0.0,"7,8",850.0,1,0.0,none,2 days,space/planetary bomber,vehicles,TIE_bomber.jpg
+6,AT-AT,All Terrain Armored Transport,"Kuat Drive Yards, Imperial Department of Military Research",0.0,20,60.0,5,40.0,1000,NaN,assault walker,vehicles,AT-AT.jpg
+7,AT-ST,All Terrain Scout Transport,"Kuat Drive Yards, Imperial Department of Military Research",0.0,2,90.0,2,0.0,200,none,walker,vehicles,AT-ST.jpg
+8,Storm IV Twin-Pod cloud car,Storm IV Twin-Pod,Bespin Motors,75000.0,7,1500.0,2,0.0,10,1 day,repulsorcraft,vehicles,Storm_IV_Twin-Pod_cloud_car.jpg
+9,Sail barge,Modified Luxury Sail Barge,Ubrikkian Industries Custom Vehicle Division,285000.0,30,100.0,26,500.0,2000000,Live food tanks,sail barge,vehicles,Sail_barge.jpg
+10,Bantha-II cargo skiff,Bantha-II,Ubrikkian Industries,8000.0,"9,5",250.0,5,16.0,135000,1 day,repulsorcraft cargo skiff,vehicles,Bantha-II_cargo_skiff.jpg
+11,TIE/IN interceptor,Twin Ion Engine Interceptor,Sienar Fleet Systems,0.0,"9,6",1250.0,1,0.0,75,2 days,starfighter,vehicles,TIE_IN_interceptor.jpg
+12,Imperial Speeder Bike,74-Z speeder bike,Aratech Repulsor Company,8000.0,3,360.0,1,1.0,4,1 day,speeder,vehicles,Imperial_Speeder_Bike.jpg
+13,Vulture Droid,Vulture-class droid starfighter,"Haor Chall Engineering, Baktoid Armor Workshop",0.0,"3,5",1200.0,0,0.0,0,none,starfighter,vehicles,Vulture_Droid.jpg
+14,Multi-Troop Transport,Multi-Troop Transport,Baktoid Armor Workshop,138000.0,31,35.0,4,112.0,12000,NaN,repulsorcraft,vehicles,Multi-Troop_Transport.jpg
+15,Armored Assault Tank,Armoured Assault Tank,Baktoid Armor Workshop,0.0,"9,75",55.0,4,6.0,NaN,NaN,repulsorcraft,vehicles,Armored_Assault_Tank.jpg
+16,Single Trooper Aerial Platform,Single Trooper Aerial Platform,Baktoid Armor Workshop,2500.0,2,400.0,1,0.0,none,none,repulsorcraft,vehicles,Single_Trooper_Aerial_Platform.jpg
+17,C-9979 landing craft,C-9979 landing craft,Haor Chall Engineering,200000.0,210,587.0,140,284.0,1800000,1 day,landing craft,vehicles,C-9979_landing_craft.jpg
+18,Tribubble bongo,Tribubble bongo,Otoh Gunga Bongameken Cooperative,0.0,15,85.0,1,2.0,1600,NaN,submarine,vehicles,Tribubble_bongo.jpg
+19,Sith speeder,FC-20 speeder bike,Razalon,4000.0,"1,5",180.0,1,0.0,2,NaN,speeder,vehicles,Sith_speeder.jpg
+20,Zephyr-G swoop,Zephyr-G swoop bike,Mobquet Swoops and Speeders,5750.0,"3,68",350.0,1,1.0,200,none,repulsorcraft,vehicles,Zephyr-G_swoop.jpg
+21,Koro-2 Exodrive airspeeder,Koro-2 Exodrive airspeeder,Desler Gizh Outworld Mobility Corporation,0.0,"6,6",800.0,1,1.0,80,NaN,airspeeder,vehicles,Koro-2_Exodrive_airspeeder.jpg
+22,XJ-6 airspeeder,XJ-6 airspeeder,Narglatch AirTech prefabricated kit,0.0,"6,23",720.0,1,1.0,NaN,NaN,airspeeder,vehicles,XJ-6_airspeeder.jpg
+23,LAAT/i,Low Altitude Assault Transport/infrantry,Rothana Heavy Engineering,0.0,"17,4",620.0,6,30.0,170,NaN,gunship,vehicles,LAAT_i.jpg
+24,LAAT/c,Low Altitude Assault Transport/carrier,Rothana Heavy Engineering,0.0,"28,82",620.0,1,0.0,40000,NaN,gunship,vehicles,LAAT_c.jpg
+25,Tsmeu-6 personal wheel bike,Tsmeu-6 personal wheel bike,Z-Gomot Ternbuell Guppat Corporation,15000.0,"3,5",330.0,1,1.0,10,none,wheeled walker,vehicles,Tsmeu-6_personal_wheel_bike.jpg
+26,Emergency Firespeeder,Fire suppression speeder,NaN,0.0,NaN,0.0,2,0.0,NaN,NaN,fire suppression ship,vehicles,Emergency_Firespeeder.jpg
+27,Droid tri-fighter,tri-fighter,"Colla Designs, Phlac-Arphocc Automata Industries",20000.0,"5,4",1180.0,1,0.0,0,none,droid starfighter,vehicles,Droid_tri-fighter.jpg
+28,Oevvaor jet catamaran,Oevvaor jet catamaran,Appazanna Engineering Works,12125.0,"15,1",420.0,2,2.0,50,3 days,airspeeder,vehicles,Oevvaor_jet_catamaran.jpg
+29,Raddaugh Gnasp fluttercraft,Raddaugh Gnasp fluttercraft,Appazanna Engineering Works,14750.0,7,310.0,2,0.0,20,none,air speeder,vehicles,Raddaugh_Gnasp_fluttercraft.jpg
+30,Clone turbo tank,HAVw A6 Juggernaut,Kuat Drive Yards,350000.0,"49,4",160.0,20,300.0,30000,20 days,wheeled walker,vehicles,Clone_turbo_tank.jpg
+31,Corporate Alliance tank droid,NR-N99 Persuader-class droid enforcer,Techno Union,49000.0,"10,96",100.0,0,4.0,none,none,droid tank,vehicles,Corporate_Alliance_tank_droid.jpg
+32,Droid gunship,HMP droid gunship,"Baktoid Fleet Ordnance, Haor Chall Engineering",60000.0,"12,3",820.0,0,0.0,0,none,airspeeder,vehicles,Droid_gunship.jpg
+33,AT-RT,All Terrain Recon Transport,Kuat Drive Yards,40000.0,"3,2",90.0,1,0.0,20,1 day,walker,vehicles,AT-RT.jpg
+34,AT-TE,All Terrain Tactical Enforcer,"Rothana Heavy Engineering, Kuat Drive Yards",0.0,"13,2",60.0,6,36.0,10000,21 days,walker,vehicles,AT-TE.jpg
+35,SPHA,Self-Propelled Heavy Artillery,Rothana Heavy Engineering,0.0,140,35.0,25,30.0,500,7 days,walker,vehicles,SPHA.jpg
+36,Flitknot speeder,Flitknot speeder,Huppla Pasa Tisc Shipwrights Collective,8000.0,2,634.0,1,0.0,NaN,NaN,speeder,vehicles,Flitknot_speeder.jpg
+37,Neimoidian shuttle,Sheathipede-class transport shuttle,Haor Chall Engineering,0.0,20,880.0,2,6.0,1000,7 days,transport,vehicles,Neimoidian_shuttle.jpg
+38,Geonosian starfighter,Nantex-class territorial defense,Huppla Pasa Tisc Shipwrights Collective,0.0,"9,8",20000.0,1,0.0,NaN,NaN,starfighter,vehicles,Geonosian_starfighter.jpg

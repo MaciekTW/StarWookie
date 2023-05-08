@@ -14,7 +14,7 @@ class CreateSpeciesTable extends Migration
     public function up()
     {
         Schema::create('species', function (Blueprint $table) {
-            $table->id();
+            $table->integer('index');
             $table->string('name');
             $table->string('classification')->nullable();
             $table->string('designation')->nullable();
@@ -27,7 +27,6 @@ class CreateSpeciesTable extends Migration
             $table->string('homeworld')->nullable();
             $table->string('component')->nullable();
             $table->string('src');
-            $table->timestamps();
         });
     }
 
