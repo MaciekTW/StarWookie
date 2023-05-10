@@ -42,7 +42,7 @@ index,name,height,mass,hair_color,skin_color,eye_color,birth_year,gender,homewor
 40,Shmi Skywalker,163.0,NaN,black,fair,brown,72BBY,female,Tatooine,Human,characters,Shmi_Skywalker.jpg
 41,Darth Maul,175.0,80,none,red,yellow,54BBY,male,Dathomir,Zabrak,characters,Darth_Maul.jpg
 42,Bib Fortuna,180.0,NaN,none,pale,pink,NaN,male,Ryloth,Twi'lek,characters,Bib_Fortuna.jpg
-43,Aayla_Secura,178.0,55,none,blue,hazel,48BBY,female,Ryloth,Twi'lek,characters,Aayla_Secura.jpg
+43,Aayla Secura,178.0,55,none,blue,hazel,48BBY,female,Ryloth,Twi'lek,characters,Aayla_Secura.jpg
 44,Dud Bolt,94.0,45,none,"blue, grey",yellow,NaN,male,Vulpter,Vulptereen,characters,Dud_Bolt.jpg
 45,Gasgano,122.0,NaN,none,"white, blue",black,NaN,male,Troiken,Xexto,characters,Gasgano.jpg
 46,Ben Quadinaros,163.0,65,none,"grey, green, yellow",orange,NaN,male,Tund,Toong,characters,Ben_Quadinaros.jpg

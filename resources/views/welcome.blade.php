@@ -36,7 +36,7 @@
                 Please click on one of buttons below to log in or to continue as guest.
             </p>
             <div class="flex w-full">
-                <a href="/pokemons" class="w-1/2 flex btn btn-primary mx-2">As guest</a>
+                <a href="/wiki" class="w-1/2 flex btn btn-primary mx-2">As guest</a>
                 <a href="/login" class="w-1/2 flex btn btn-secondary mx-2">Login</a>
             </div>
         </div>

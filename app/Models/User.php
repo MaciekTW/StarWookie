@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use Illuminate\Support\Facades\Hash;
 
 class User extends Authenticatable
 {
@@ -17,11 +18,19 @@ class User extends Authenticatable
      *
      * @var array<int, string>
      */
+
+    protected $attributes = [
+        'image' => "Graphics/Pokemons/1.jpg",
+        'customAvatar' => false,
+    ];
+
     protected $fillable = [
         'username',
         'email',
         'password',
-        'favCharacter'
+        'favCharacter',
+        'image',
+        'customAvatar',
     ];
 
     /**
@@ -42,4 +51,20 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public static function createWithCollection($data): User
+    {
+        $user = User::create([
+            'username' => $data['username'],
+            'favPokemon' => $data['favPokemon'],
+            'email' => $data['email'],
+            'image' => Item::getItemPhotoByName($data['favCharacter']),
+            'password' => Hash::make($data['password'])
+        ]);
+
+//        $user->collection()->addToCollection(Pokemon::getPokemonByName($user->favPokemon));
+
+        return $user;
+    }
+
 }

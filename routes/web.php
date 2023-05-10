@@ -21,4 +21,6 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+Route::resource('wiki', \App\Http\Controllers\WikiController::class);
+
 require __DIR__.'/auth.php';
