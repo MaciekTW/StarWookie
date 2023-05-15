@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\DB;
 class Item extends Model
 {
     use HasFactory;
-
+    protected $primaryKey = 'id';
     public $timestamps = false;
 
     public static function getItemName($itemName)
@@ -25,4 +25,8 @@ class Item extends Model
         return "Graphics/".$itemObj->component."/".$itemObj->src;
     }
 
+    public static function randomItem()
+    {
+        return Item::all()->random(1)[0];
+    }
 }

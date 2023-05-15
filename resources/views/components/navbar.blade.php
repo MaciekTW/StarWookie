@@ -9,8 +9,11 @@
                 Wiki
             </x-navbar-link>
 
-
-            <x-navbar-link :dest="'random'" class="btn-ghost">
+            @php
+                $item_num = App\Models\Item::randomItem()->id;
+                $dst= "items/" . $item_num;
+            @endphp
+            <x-navbar-link :dest="$dst" class="btn-ghost">
                 Random
             </x-navbar-link>
 
