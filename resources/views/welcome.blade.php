@@ -27,7 +27,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body class="antialiased">
-<div class="min-h-screen bg-base-200" style="background-image: url('Graphics/background.png');">
+<div class="min-h-screen bg-base-200 bg-cover bg-center bg-no-repeat" style="background-image: url('Graphics/background.jpg'); background-size: cover;">
     <div class="absolute inset-y-0 right-0 hero-content lg:flex-row-reverse mr-20">
         <div class="bg-gray-600 p-10 sm:rounded-3xl flex flex-col items-center">
             <x-application-logo class="self-start"/>
