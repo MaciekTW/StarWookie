@@ -8,6 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use Illuminate\Support\Facades\Hash;
+use App\Classes\Collection;
 
 class User extends Authenticatable
 {
@@ -19,8 +20,17 @@ class User extends Authenticatable
      * @var array<int, string>
      */
 
+
+    private $collection;
+
+    public function __construct(array $attributes = [])
+    {
+        parent::__construct($attributes);
+
+        $this->collection = new Collection($this);
+    }
+
     protected $attributes = [
-        'image' => "Graphics/Pokemons/1.jpg",
         'customAvatar' => false,
     ];
 
@@ -56,15 +66,40 @@ class User extends Authenticatable
     {
         $user = User::create([
             'username' => $data['username'],
-            'favPokemon' => $data['favPokemon'],
+            'favCharacter' => $data['favCharacter'],
             'email' => $data['email'],
-            'image' => Item::getItemPhotoByName($data['favCharacter']),
             'password' => Hash::make($data['password'])
         ]);
-
-//        $user->collection()->addToCollection(Pokemon::getPokemonByName($user->favPokemon));
+        $user->collection()->addToCollection(Item::getItemName($user->favCharacter));
 
         return $user;
     }
+
+
+    public function items()
+    {
+        return $this->belongsToMany(Item::class, 'item_user', 'user_id', 'item_id', );
+    }
+
+    public function collection(): Collection
+    {
+        return $this->collection;
+    }
+
+
+    public function getPathToProfilePhoto()
+    {
+        if( !$this->customAvatar)
+        {
+            $this->image=Item::getItemPhotoByName($this->favCharacter);
+        }
+        return $this->image;
+    }
+
+    public function getFavCharacter()
+    {
+        return Item::getItemName($this->favCharacter);
+    }
+
 
 }
