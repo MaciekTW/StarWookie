@@ -11,7 +11,7 @@
 
             @php
                 $item_num = App\Models\Item::randomItem()->id;
-                $dst= "items/" . $item_num;
+                $dst= "wiki/" . $item_num;
             @endphp
             <x-navbar-link :dest="$dst" class="btn-ghost">
                 Random
