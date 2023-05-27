@@ -53,16 +53,18 @@ class WikiController extends Controller
     {
 
         // get the current user
-        $item = items::find($id);
+        $item = item::find($id);
 
         // get previous user id
-        $previous = items::where('id', '<', $item->Pokedex_Number)->max('Pokedex_Number');
+        $previous = item::where('id', '<', $item->id)->max('id');
 
         // get next user id
-        $next = items::where('id', '>', $item->Pokedex_Number)->min('Pokedex_Number');
+        $next = item::where('id', '>', $item->id)->min('id');
 
         // check if in collection
         $isInCollection = FALSE;
+
+        $componentItem = DB::table($item->component)->where('index', '=', $item->component_index)->first();
 //        if(Auth::user())
 //        {
 //            $items = Auth::user()->collection()->getAllPokemonsFromCollection();
@@ -72,7 +74,7 @@ class WikiController extends Controller
 //            }
 //        }
 
-        return View::make('items.show')->with('item', $item)->with('previous', $previous)->with('next', $next)->with('isInCollection', $isInCollection);
+        return View::make('wiki.show')->with('item', $componentItem)->with('previous', $previous)->with('next', $next)->with('isInCollection', $isInCollection)->with('id', $item->id);
     }
 
 }
