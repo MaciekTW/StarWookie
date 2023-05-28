@@ -1,5 +1,5 @@
 @if (Route::has('login'))
-    <div class="flex w-screen h-16 bg-gray-800 px-5 mb-5 drop-shadow-2xl align-center justify-between items-center rounded-b-2xl">
+    <div class="flex w-screen h-16 bg-black px-5 mb-5 drop-shadow-2xl align-center justify-between items-center rounded-b-2xl">
         <a href="/wiki" class="hidden sm:flex align-center justify-start items-center sm:w-1/3">
             <x-application-logo/>
         </a>

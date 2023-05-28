@@ -6,11 +6,13 @@
         <x-delete-account-button />
     </div>
 
-    <img class="object-contain mt-3 bg-white shadow-xl rounded-full" src="{{ asset(Auth::user()->getPathToProfilePhoto()) }}"/>
-    <p class="text-4xl p-5">{{Auth::user()->username}}</p>
+    <div class="flex justify-center">
+        <img class="mt-3 bg-white shadow-xl rounded-full mx-auto max-w-full" src="{{ asset(Auth::user()->getPathToProfilePhoto()) }}" alt="Profile Photo">
+    </div>
+    <p class="text-4xl p-5" style="font-family: 'octo'">{{Auth::user()->username}}</p>
 
     <div class="bg-white p-10 drop-shadow-lg rounded-3xl">
-        <p class="pb-2 mt-0 text-3xl text-black">Profile details</p>
+        <p class="pb-2 mt-0 text-3xl text-black" style="font-family: 'octo'">Profile details</p>
 
         <form method="POST" action="/users/{{$user->id}}">
             @csrf
@@ -28,7 +30,7 @@
                 <input class="shadow text-left appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="favCharacter" id="favCharacter" type="text" value="{{Auth::user()->favCharacter}}">
             </div>
             <div class="flex items-center justify-center">
-                <button type="submit"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mr-5">
+                <button type="submit"  class="bg-sky-800 hover:bg-sky-700 text-white font-bold py-3 px-4 rounded-full mr-5" style="font-family: 'starjedi', sans-serif;">
                     Change
                 </button>
 

@@ -1,6 +1,6 @@
-<div class="flex flex-col w-7/12 h-4/6 text-center drop-shadow-2xl bg-gray-600 m-1  text-xl">
+<div class="flex flex-col w-7/12 h-4/6 text-center drop-shadow-2xl bg-gray-800 m-1  text-xl">
     <div
-        class="w-full text-2xl font-bold text-center bg-gray-800 drop-shadow-lg rounded-bl-lg rounded-br-lg p-1 text-blue-400  flex justify-between items-center">
+        class="w-full text-2xl font-bold text-center bg-black drop-shadow-lg rounded-bl-lg rounded-br-lg p-1 text-yellow-300  flex justify-between items-center">
 
         @if($prev)
             <a href="{{ URL::to( 'wiki/' . $prev ) }}">
@@ -12,7 +12,7 @@
                 </svg>
             </a>
         @endif
-        <p class="w-full text-center">#{{$id}} {{ $item->name }}</p>
+        <p class="w-full text-center" style="font-family: 'octo'">#{{$id}} {{ $item->name }}</p>
         @if(Auth::user())
             @if($isInCollection)
                 <img class="h-12 w-14 p-3 pb-1 absolute -top-2 right-9" alt='You have that Pokemon in your collection'

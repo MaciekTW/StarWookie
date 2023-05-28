@@ -28,7 +28,7 @@
     </script>
 </head>
 <body class="font-sans antialiased">
-<div class="flex flex-col justify-start items-center overflow-x-hidden  min-h-screen bg-gray-900 py-4 sm:pt-0">
+<div class="flex flex-col justify-start items-center overflow-x-hidden  min-h-screen bg-sky-900 py-4 sm:pt-0">
     <x-navbar/>
     <!-- Page Content -->
     {{ $slot }}

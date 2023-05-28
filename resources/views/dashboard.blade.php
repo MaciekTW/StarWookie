@@ -4,12 +4,12 @@
     </x-slot>
 
     <div class="flex w-4/5 h-4/6 text-center drop-shadow-2xl m-1  text-xl">
-        <div class="w-1/3 rounded-3xl text-2xl font-bold text-center bg-gray-600 drop-shadow-lg rounded-bl-lg rounded-br-lg text-blue-400 justify-between items-center">
-            <div class="w-full text-2xl font-bold text-center bg-gray-800 drop-shadow-lg rounded-bl-lg rounded-br-lg rounded-3xl text-blue-400  flex justify-between items-center">
+        <div class="w-1/3 rounded-3xl text-2xl font-bold text-center bg-gray-800 drop-shadow-lg rounded-bl-lg rounded-br-lg text-yellow-300 justify-between items-center">
+            <div class="w-full text-2xl font-bold text-center bg-black drop-shadow-lg rounded-bl-lg rounded-br-lg rounded-3xl text-yellow-300  flex justify-between items-center">
                 <div class="w-full items-start">
                     <div>
 
-                        <div class="w-full text-2xl text-center bg-gray-800 drop-shadow-lg rounded-bl-lg rounded-br-lg rounded-3xl text-blue-400  flex justify-between items-center">
+                        <div class="w-full text-2xl text-center bg-black drop-shadow-lg rounded-bl-lg rounded-br-lg rounded-3xl text-yellow-300  flex justify-between items-center">
                             <p class="w-full font-light text-center "> Profile </p>
                         </div>
 
@@ -20,15 +20,15 @@
         </div>
 
 
-        <div class="flex-col w-2/3 bg-gray-600 rounded-3xl text-2xl font-bold text-center drop-shadow-lg rounded-bl-lg rounded-br-lg text-blue-400 align-center justify-center items-center ml-5">
-            <div class="w-full text-2xl font-bold text-center bg-gray-800 drop-shadow-lg rounded-bl-lg rounded-br-lg rounded-3xl text-blue-400">
+        <div class="flex-col w-2/3 bg-gray-800 rounded-3xl text-2xl font-bold text-center drop-shadow-lg rounded-bl-lg rounded-br-lg text-yellow-300 align-center justify-center items-center ml-5">
+            <div class="w-full text-2xl font-bold text-center bg-black drop-shadow-lg rounded-bl-lg rounded-br-lg rounded-3xl text-yellow-300">
                 <p class="w-full font-light"> My favorites </p>
             </div>
             <x-validator-msg />
 
             <x-user-stat />
             <div class="flex flex-col justify-center items-center">
-                <div class="w-5/6 h-fit text-blue-400" style="display:grid; grid-template-columns: repeat(3, minmax(0, 1fr));">
+                <div class="w-5/6 h-fit text-yellow-300" style="display:grid; grid-template-columns: repeat(3, minmax(0, 1fr));">
                     @forelse($items as $key => $item)
                         <div class="grow relative">
                             @if( Auth::user()->collection()->getCollectionSize() > 1)
