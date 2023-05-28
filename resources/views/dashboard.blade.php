@@ -22,14 +22,14 @@
 
         <div class="flex-col w-2/3 bg-gray-600 rounded-3xl text-2xl font-bold text-center drop-shadow-lg rounded-bl-lg rounded-br-lg text-blue-400 align-center justify-center items-center ml-5">
             <div class="w-full text-2xl font-bold text-center bg-gray-800 drop-shadow-lg rounded-bl-lg rounded-br-lg rounded-3xl text-blue-400">
-                <p class="w-full font-light"> My Pokemons </p>
+                <p class="w-full font-light"> My favorites </p>
             </div>
             <x-validator-msg />
 
             <x-user-stat />
             <div class="flex flex-col justify-center items-center">
                 <div class="w-5/6 h-fit text-blue-400" style="display:grid; grid-template-columns: repeat(3, minmax(0, 1fr));">
-                    @forelse($pokemons as $key => $pokemon)
+                    @forelse($items as $key => $item)
                         <div class="grow relative">
                             @if( Auth::user()->collection()->getCollectionSize() > 1)
                                 <label class="absolute w-5 items-center z-10 top-0 left-0 p-3">
@@ -39,18 +39,18 @@
                                     <form action="/delete-pokemon" method="POST" enctype="multipart/form-data">
                                         @csrf
 
-                                        <input name="pokemon" type="text" value="{{$pokemon->Pokemon_Name}}" class="hidden" onclick="this.form.submit()"/>
+                                        <input name="pokemon" type="text" value="{{$item->name}}" class="hidden" onclick="this.form.submit()"/>
                                     </form>
                                 </label>
                             @endif
 
-                            <x-item-card-mini :pokemon="$pokemon" class=""/>
+                            <x-item-card-mini :item="$item" class=""/>
                         </div>
                     @empty
-                        <h2 class="text-gray-800 text-4xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 italic">No Pokemons in your collection. </h2>
+                        <h2 class="text-gray-800 text-4xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 italic">No items in your collection. </h2>
                     @endforelse
                 </div>
-                {{$pokemons->links('pagination.default')}}
+                {{$items->links('pagination.default')}}
             </div>
         </div>
     </div>

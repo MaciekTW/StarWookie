@@ -2,6 +2,16 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@font-face {
+    font-family: 'starjedi';
+    src: url('../../public/fonts/starjedi/Starjedi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'octo';
+    src: url('../../public/fonts/tt_octosquares/TTOctosquaresTrialExtraLight.ttf') format('truetype');
+}
+
 .progress {
     background: rgba(255,255,255,0.1);
     justify-content: flex-start;

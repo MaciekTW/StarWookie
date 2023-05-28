@@ -3,7 +3,7 @@
     'p-1',
     'm-1',
     'rounded-lg',
-    'w-24',
+    'w-34',
     'text-black',
     'border-solid',
     'border-2',

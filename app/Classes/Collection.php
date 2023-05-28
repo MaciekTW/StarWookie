@@ -38,7 +38,7 @@ class Collection
     public function getAllItemsFromCollectionAsDB()
     {
         return DB::table('items')
-            ->select('*')
+            ->select('items.id AS id', 'component', 'src', 'name')
             ->leftJoin('item_user', 'items.id', '=', 'item_user.item_id')
             ->where('user_id', '=', $this->user->id)
             ->orderBy("items.id");
@@ -74,7 +74,7 @@ class Collection
             ->select('*')
             ->leftJoin('item_user', 'items.id', '=', 'item_user.item_id')
             ->where('user_id', '=', $this->user->id)
-            ->orderByDesc('items.id')
+            ->orderByDesc('item_user.id')
             ->first();
 
         return $last;

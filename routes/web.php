@@ -18,8 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
-    $pokemons =  Auth::user()->collection()->getAllItemsFromCollectionAsDB()->paginate(9);;
-    return view('dashboard',compact('pokemons'));
+    $items =  Auth::user()->collection()->getAllItemsFromCollectionAsDB()->paginate(9);;
+    return view('dashboard',compact('items'));
 })->middleware(['auth'])->name('dashboard');
 
 Route::resource('wiki', \App\Http\Controllers\WikiController::class);

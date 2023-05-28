@@ -5,7 +5,7 @@
         </a>
 
         <div class="hidden sm:flex flex-col sm:flex-row align-center justify-center items-center space-x-5 sm:w-1/3">
-            <x-navbar-link :dest="'wiki'" class="btn-ghost">
+            <x-navbar-link :dest="'wiki'" class="btn-ghost" style="font-family: 'octo'">
                 Wiki
             </x-navbar-link>
 
@@ -13,11 +13,11 @@
                 $item_num = App\Models\Item::randomItem()->id;
                 $dst= "wiki/" . $item_num;
             @endphp
-            <x-navbar-link :dest="$dst" class="btn-ghost">
+            <x-navbar-link :dest="$dst" class="btn-ghost" style="font-family: 'octo'">
                 Random
             </x-navbar-link>
 
-            <x-navbar-link :dest="'Translate'" class="btn-ghost">
+            <x-navbar-link :dest="'Translate'" class="btn-ghost" style="font-family: 'octo'">
                 Translate
             </x-navbar-link>
         </div>
@@ -35,13 +35,7 @@
                         {{ __('Wiki') }}
                     </x-dropdown-link>
 
-{{--                    <x-dropdown-link :href="route('wiki.show',$pokedex_num)">--}}
-{{--                        {{ __('Random') }}--}}
-{{--                    </x-dropdown-link>--}}
 
-{{--                    <x-dropdown-link :href="route('comparison.index')">--}}
-{{--                        {{ __('Translate') }}--}}
-{{--                    </x-dropdown-link>--}}
                 </x-slot>
             </x-dropdown>
         </div>
@@ -58,7 +52,7 @@
                                         <img src="{{ asset(Auth::user()->getPathToProfilePhoto()) }}">
                                     </div>
                                 </div>
-                                <div class="font-bold">{{ Auth::user()->username }}</div>
+                                <div class="font-bold ml-2" style="font-family: 'octo'">{{ Auth::user()->username }}</div>
 
                                 <div class="ml-1">
                                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">

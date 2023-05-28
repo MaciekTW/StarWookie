@@ -23,9 +23,9 @@
             </div>
             <div class="mb-6">
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="favPokemon2">
-                    Favorite Pokemon:
+                    Favorite Character:
                 </label>
-                <input class="shadow text-left appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="favPokemon" id="favPokemon" type="text" value="{{Auth::user()->favPokemon}}">
+                <input class="shadow text-left appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="favCharacter" id="favCharacter" type="text" value="{{Auth::user()->favCharacter}}">
             </div>
             <div class="flex items-center justify-center">
                 <button type="submit"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mr-5">

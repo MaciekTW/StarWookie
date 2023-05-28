@@ -46,7 +46,7 @@ class RegisteredUserController extends Controller
                     ->uncompromised()],
         ]);
 
-        $user = User::create([
+        $user = User::createWithCollection([
             'username' => $request->username,
             'favCharacter' => $request->favCharacter,
             'email' => $request->email,
