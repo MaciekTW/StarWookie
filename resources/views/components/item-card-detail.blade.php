@@ -1,4 +1,4 @@
-<div class="flex flex-col w-7/12 h-4/6 text-center drop-shadow-2xl bg-gray-800 mt-0 text-xl" style="margin-top: -200px;">
+<div class="flex flex-col w-7/12 h-4/6 text-center drop-shadow-2xl bg-gray-800 mt-0 text-xl" style="margin-top: -15%;">
     <div
         class="w-full text-2xl font-bold text-center bg-black drop-shadow-lg rounded-bl-lg rounded-br-lg p-1 text-yellow-300  flex justify-between items-center">
 
@@ -362,7 +362,7 @@
 
         </div>
 
-    <div class="bg-gray-700 w-7/12 " style="margin-top: -250px;">
+    <div class="bg-gray-700 w-7/12 " style="margin-top: -15%">
         <h1 class="text-2xl text-gray-200 p-1 text-center">
             Little known facts
         </h1>

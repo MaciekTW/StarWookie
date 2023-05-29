@@ -2503,8 +2503,14 @@ html {
 .ml-6 {
   margin-left: 1.5rem;
 }
+.ml-2 {
+  margin-left: 0.5rem;
+}
 .ml-1 {
   margin-left: 0.25rem;
+}
+.mt-0 {
+  margin-top: 0px;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -2517,9 +2523,6 @@ html {
 }
 .mr-2 {
   margin-right: 0.5rem;
-}
-.ml-2 {
-  margin-left: 0.5rem;
 }
 .mt-4 {
   margin-top: 1rem;
@@ -2553,9 +2556,6 @@ html {
 }
 .ml-5 {
   margin-left: 1.25rem;
-}
-.mt-0 {
-  margin-top: 0px;
 }
 .mb-6 {
   margin-bottom: 1.5rem;
@@ -2664,9 +2664,6 @@ html {
 .w-36 {
   width: 9rem;
 }
-.w-24 {
-  width: 6rem;
-}
 .w-7\/12 {
   width: 58.333333%;
 }
@@ -2711,6 +2708,9 @@ html {
 }
 .w-56 {
   width: 14rem;
+}
+.w-24 {
+  width: 6rem;
 }
 .w-11\/12 {
   width: 91.666667%;
@@ -2977,21 +2977,21 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-.bg-gray-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 .bg-lime-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(63 98 18 / var(--tw-bg-opacity));
 }
-.bg-gray-300 {
+.bg-fuchsia-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+  background-color: rgb(112 26 117 / var(--tw-bg-opacity));
 }
 .bg-slate-700 {
   --tw-bg-opacity: 1;
@@ -3033,17 +3033,9 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
-.bg-gray-900 {
+.bg-sky-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-.bg-fuchsia-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(112 26 117 / var(--tw-bg-opacity));
+  background-color: rgb(12 74 110 / var(--tw-bg-opacity));
 }
 .bg-indigo-50 {
   --tw-bg-opacity: 1;
@@ -3052,10 +3044,6 @@ html {
 .bg-sky-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(7 89 133 / var(--tw-bg-opacity));
-}
-.bg-sky-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(12 74 110 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
@@ -3300,9 +3288,9 @@ html {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.text-blue-400 {
+.text-yellow-300 {
   --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity));
+  color: rgb(253 224 71 / var(--tw-text-opacity));
 }
 .text-gray-200 {
   --tw-text-opacity: 1;
@@ -3352,6 +3340,10 @@ html {
   --tw-text-opacity: 1;
   color: rgb(165 243 252 / var(--tw-text-opacity));
 }
+.text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
+}
 .text-red-600 {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
@@ -3359,10 +3351,6 @@ html {
 .text-indigo-600 {
   --tw-text-opacity: 1;
   color: rgb(79 70 229 / var(--tw-text-opacity));
-}
-.text-yellow-300 {
-  --tw-text-opacity: 1;
-  color: rgb(253 224 71 / var(--tw-text-opacity));
 }
 .text-indigo-700 {
   --tw-text-opacity: 1;
@@ -3550,8 +3538,8 @@ html {
 .hover\:to-lime-800:hover {
   --tw-gradient-to: #3f6212;
 }
-.hover\:to-gray-300:hover {
-  --tw-gradient-to: #d1d5db;
+.hover\:to-fuchsia-900:hover {
+  --tw-gradient-to: #701a75;
 }
 .hover\:to-slate-700:hover {
   --tw-gradient-to: #334155;
@@ -3561,9 +3549,6 @@ html {
 }
 .hover\:to-pink-400:hover {
   --tw-gradient-to: #f472b6;
-}
-.hover\:to-fuchsia-900:hover {
-  --tw-gradient-to: #701a75;
 }
 .hover\:stroke-red-500:hover {
   stroke: #ef4444;
@@ -3764,18 +3749,13 @@ html {
     border-radius: 1.5rem;
   }
 
-  .sm\:bg-gray-800 {
+  .sm\:bg-black {
     --tw-bg-opacity: 1;
-    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   }
 
   .sm\:bg-transparent {
     background-color: transparent;
-  }
-
-  .sm\:bg-black {
-    --tw-bg-opacity: 1;
-    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   }
 
   .sm\:py-0 {
