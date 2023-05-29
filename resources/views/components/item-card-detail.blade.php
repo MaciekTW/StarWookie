@@ -48,7 +48,7 @@
 
         <div class=" flex flex-col w-2/3 pl-5 pr-5  align-center justify-center items-center">
             @if($item->component == 'characters')
-                <div class="flex items-center align-center justify-center text-center">
+                <div class="flex items-center align-center justify-center text-center color text-white">
                     <h2 class="px-2">
                     Species: {{$item->species}}
                     </h2>
@@ -89,19 +89,19 @@
                     </h2>
             @endif
             @if($item->component == 'planets')
-                <div class="flex items-center align-center justify-center text-center">
+                <div class="flex items-center align-center justify-center text-center text-white">
                     <h2 class="px-2">
                         Gravity: {{$item->gravity}}
                     </h2>
             @endif
             @if($item->component == 'species')
-                <div class="flex items-center align-center justify-center text-center">
+                <div class="flex items-center align-center justify-center text-center text-white">
                     <h2 class="px-2">
                         Classification: {{$item->classification}}
                     </h2>
             @endif
             @if($item->component == 'starships' or $item->component == 'vehicles')
-                <div class="flex items-center align-center justify-center text-center">
+                <div class="flex items-center align-center justify-center text-center text-white">
                     <h2 class="px-2">
                         Full model name: {{$item->model}}
                     </h2>
