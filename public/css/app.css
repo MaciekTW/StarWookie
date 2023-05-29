@@ -2446,6 +2446,12 @@ html {
 .left-0 {
   left: 0px;
 }
+.right-10 {
+  right: 2.5rem;
+}
+.top-1 {
+  top: 0.25rem;
+}
 .z-0 {
   z-index: 0;
 }
@@ -3079,6 +3085,12 @@ html {
 .stroke-red-300 {
   stroke: #fca5a5;
 }
+.stroke-green-300 {
+  stroke: #86efac;
+}
+.stroke-green-700 {
+  stroke: #15803d;
+}
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -3552,6 +3564,9 @@ html {
 }
 .hover\:stroke-red-500:hover {
   stroke: #ef4444;
+}
+.hover\:stroke-green-500:hover {
+  stroke: #22c55e;
 }
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;

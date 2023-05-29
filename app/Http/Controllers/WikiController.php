@@ -65,14 +65,14 @@ class WikiController extends Controller
         $isInCollection = FALSE;
 
         $componentItem = DB::table($item->component)->where('index', '=', $item->component_index)->first();
-//        if(Auth::user())
-//        {
-//            $items = Auth::user()->collection()->getAllPokemonsFromCollection();
-//            foreach ($items as $it) {
-//                if ($it->id == $item->id)
-//                    $isInCollection = TRUE;
-//            }
-//        }
+        if(Auth::user())
+        {
+            $items = Auth::user()->collection()->getAllItemsFromCollection();
+            foreach ($items as $it) {
+                if ($it->id == $item->id)
+                    $isInCollection = TRUE;
+            }
+        }
 
         return View::make('wiki.show')->with('item', $componentItem)->with('previous', $previous)->with('next', $next)->with('isInCollection', $isInCollection)->with('id', $item->id);
     }

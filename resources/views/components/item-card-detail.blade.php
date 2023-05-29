@@ -14,9 +14,18 @@
         @endif
         <p class="w-full text-center" style="font-family: 'octo'">#{{$id}} {{ $item->name }}</p>
         @if(Auth::user())
-            @if($isInCollection)
-                <img class="h-12 w-14 p-3 pb-1 absolute -top-2 right-9" alt='You have that Pokemon in your collection'
-                     src="{{ asset('Graphics/pokeball.ico')}}"/>
+            @if(!($isInCollection))
+                    <label class="absolute w-5 items-center z-10 mt-1 right-10 p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:stroke-green-500 stroke-green-700" fill="none" viewBox="0 0 24 24">
+                            <rect x="10" y="2" width="4" height="20" fill="green"/>
+                            <rect x="2" y="10" width="20" height="4" fill="green"/>
+                        </svg>
+                        </svg>
+                        <form action="/add-item" method="POST" enctype="multipart/form-data">
+                            @csrf
+                            <input name="item" type="text" value="{{$item->name}}" class="hidden" onclick="this.form.submit()"/>
+                        </form>
+                    </label>
             @endif
         @endif
         @if($next)
