@@ -3,9 +3,8 @@
 namespace App\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
-use App\Models\characters;
-
-class ExistingCharacter implements Rule
+use Illuminate\Support\Facades\Hash;
+class IsPasswordCorrect implements Rule
 {
     /**
      * Create a new rule instance.
@@ -14,21 +13,19 @@ class ExistingCharacter implements Rule
      */
     public function __construct()
     {
-        //
+
     }
 
     /**
      * Determine if the validation rule passes.
      *
-     * @param string $attribute
-     * @param mixed $value
+     * @param  string  $attribute
+     * @param  mixed  $value
      * @return bool
      */
     public function passes($attribute, $value)
     {
-        $item = characters::where('name', '=', $value)->first();
-
-        return $item;
+        return Hash::check($value, auth()->user()->password);
     }
 
     /**
@@ -38,6 +35,6 @@ class ExistingCharacter implements Rule
      */
     public function message()
     {
-        return 'No such character in our database!';
+        return 'Incorrect user password!';
     }
 }
