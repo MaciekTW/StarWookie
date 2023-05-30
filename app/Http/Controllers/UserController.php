@@ -16,14 +16,14 @@ class UserController extends Controller
     {
         $request->validate([
             'username' => ['required', 'string', 'max:255', new IsUsernameFree()],
-            'favPokemon' => ['required', 'string', 'max:255', new CorrectItem()],
+            'favCharacter' => ['required', 'string', 'max:255', new CorrectItem()],
         ]);
 
 
         $user->username = $request->username;
-        $user->favPokemon = $request->favPokemon;
+        $user->favCharacter = $request->favCharacter;
         if( ! $user->customAvatar )
-            $user->image = Item::getItemPhotoByName($user->favItem);
+            $user->image = Item::getItemPhotoByName($user->favCharacter);
         $user->save();
 
         return $this->showLoggedUser();
@@ -36,7 +36,7 @@ class UserController extends Controller
 
     public function destroy(User $user)
     {
-        $userPhoto="storage/Graphics/ProfilePhotos/".Auth()->user()->id."_".Auth()->user()->username.'.jpeg';
+        $userPhoto="public/Graphics/ProfilePhotos/".Auth()->user()->id."_".Auth()->user()->username.'.jpeg';
         if(file_exists($userPhoto))
             unlink($userPhoto);
 
@@ -53,8 +53,8 @@ class UserController extends Controller
 
         if($request->hasFile('image')){
             $filename = Auth()->user()->id."_".Auth()->user()->username.'.jpeg';
-            $request->image->storeAs('Graphics/ProfilePhotos',$filename,'');
-            Auth()->user()->update(['image'=>"storage/Graphics/ProfilePhotos/".$filename]);
+            $request->image->move(public_path('Graphics/ProfilePhotos'),$filename);
+            Auth()->user()->update(['image'=>asset("Graphics/ProfilePhotos/".$filename)]);
         }
         Auth()->user()->customAvatar = true;
         Auth()->user()->save();

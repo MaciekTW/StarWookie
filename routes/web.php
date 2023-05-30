@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AutocompleteController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ChangePasswordController;
+use App\Http\Controllers\WikiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,9 +26,12 @@ Route::get('/dashboard', function () {
     return view('dashboard',compact('items'));
 })->middleware(['auth'])->name('dashboard');
 
-Route::resource('wiki', \App\Http\Controllers\WikiController::class);
+Route::resource('wiki', WikiController::class);
+Route::resource('change-password', ChangePasswordController::class);
+Route::resource('users', UserController::class);
 Route::post('/photo-change',[UserController::class, 'uploadPhoto'])->middleware('auth');
 Route::post('/delete-item',[UserController::class, 'deleteItemFromCollection'])->middleware('auth');
 Route::post('/add-item',[UserController::class, 'addItemToCollection'])->middleware('auth');
+
 
 require __DIR__.'/auth.php';
