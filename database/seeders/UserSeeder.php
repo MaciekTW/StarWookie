@@ -6,6 +6,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use App\Models\User;
 use App\Models\Item;
+use Illuminate\Support\Facades\Hash;
 
 class UserSeeder extends Seeder
 {
@@ -21,14 +22,14 @@ class UserSeeder extends Seeder
             'username' => 'Janek',
             'favCharacter' => 'Yoda',
             'email' => 'janek@gmail.com',
-            'password' => bcrypt('TajneHaslo_123'),
+            'password' => 'TajneHaslo_123',
         ]);
 
         User::createWithCollection([
             'username' => 'Maciek',
             'favCharacter' => 'Yoda',
             'email' => 'maciek@gmail.com',
-            'password' => bcrypt('TajneHaslo_123'),
+            'password' => 'TajneHaslo_123',
         ]);
     }
 }

@@ -50,7 +50,7 @@ class RegisteredUserController extends Controller
             'username' => $request->username,
             'favCharacter' => $request->favCharacter,
             'email' => $request->email,
-            'password' => Hash::make($request->password),
+            'password' => $request->password,
         ]);
 
         event(new Registered($user));
